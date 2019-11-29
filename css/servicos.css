@@ -1,0 +1,21 @@
+#logo {
+    width: 20px;
+    height: 20px;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../img/DSC05579.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#textos {
+    font-family: "Roboto";
+    src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+}
