@@ -1,0 +1,14 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+h4{
+    text-align: center;
+    position: relative;
+    top: 120px;
+}

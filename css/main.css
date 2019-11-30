@@ -3,6 +3,10 @@ body {
     margin: 0 20px 0 20px;
     font-family: 'Roboto'
 }
+.row{
+    position: relative;
+    left: 200px;
+}
 
 .principal {
     width: 100%;

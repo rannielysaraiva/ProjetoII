@@ -1,0 +1,24 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+.lista1, .lista2{
+    padding: 20px;
+}
+.text{
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+.img-fluid{
+    position: relative;
+    left: 650px;
+    padding: 20px;
+}
