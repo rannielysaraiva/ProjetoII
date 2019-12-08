@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./../css/registro.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <title>Faz Aí | Publicar Projeto</title>
+</head>
+<script>
+    $('.alert').alert()
+</script>
+<header>
+    <nav class="mb-1 navbar navbar-expand-lg scrolling-navbar navbar-dark transparent">
+        <a class="navbar-brand" href="#">
+            <img src="/img/logo.png" style="width: 90px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555" aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item avatar">
+                    <a class="nav-link p-0 pr-5" style="width: 20px;" href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body style="background-color: black;">
+    <div class="container">
+        <h1 class="text-center white-text">Publique seu projeto</h1>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 mx-auto">
+                <div class="card card-signin transparent my-5" style="background-color: black;">
+                    <div class="card-body ">
+                        <form class="form-signin">
+                            <div class="form-label-group m-5">
+                                <label for="inputPassword" class="text-white">Escolha uma categoria:</label>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label  text-white" for="exampleCheck1">TI e Design</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label  text-white" for="exampleCheck1">Design e
+                                        Multimídia</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label  text-white" for="exampleCheck1">Marketing</label>
+                                </div>
+                                <br>
+                                <br>
+                                <label for="inputPassword" class="text-white">Nome do projeto:</label>
+                                <input type="text" id="inputPassword" class="form-control " placeholder="Nome do projeto" required>
+                            </div>
+                            <div class="form-label-group m-5">
+                                <label for="inputPassword" class="text-white">Descreva com detalhes o trabalho a ser feito:</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea3" rows="7"></textarea>
+                            </div>
+
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 mx-auto">
+                <div class="card card-signin  my-5" style="background-color: black;">
+                    <div class="card-body ">
+                        <form class="form-signin">
+                            <div class="form-label-group m-5">
+                                <label for="inputEmail" class="text-white">Níveis de habilidades desejadas</label>
+                                <div class="form-label-group ">
+                                    <textarea class="form-control" id="exampleFormControlTextarea3" rows="7"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-label-group m-5">
+                                <label for="inputEmail" class="text-white">Quais áreas de sua especialização?</label>
+                                <div class="row ml-1">
+                                    <div class="form-check pr-4">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label  text-white" for="exampleCheck1">Iniciante</label>
+                                        <h6 class="text-white">Freenlancer com menores valores do mercado</h6>
+                                    </div>
+                                    <br>
+                                    <div class="form-check pr-4">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label  text-white" for="exampleCheck1">Intermediário</label>
+                                        <h6 class="text-white">Freelancer com combinaçáo de experiência e valor.</h6>
+                                    </div>
+                                    <br>
+                                    <div class="form-check pr-4">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label  text-white" for="exampleCheck1">Especialista</label>
+                                        <h6 class="text-white">Freelancer com mais experiência.</h6>
+                                    </div>
+                                    <br>
+
+                                </div>
+                            </div>
+                            <div class="form-label-group m-5">
+                                <label for="inputPassword" class="text-white">Informações adicionais:</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea3" rows="7"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-label-group m- text-center">
+            <br>
+            <a class="btn btn-outline-light"><i class="fas fa-times-circle pr-2" ></i>Cancelar</a>
+            <a class="btn btn-outline-light" href="./../index.html"><i class="far fa-save pr-2"></i>Salvar</a>
+
+        </div>
+        <a href="#" class="float">
+            <i class="fas fa-arrow-up my-float"></i>
+        </a>
+    </div>
+
+
+</body>
+
+</html>
